@@ -32,6 +32,10 @@ MEO/
 │   ├── datasets_kmeans/     # cluster labels
 │   ├── datasets_split/      # expert / non-expert subsets
 │   └── datasets_labeled/    # output: relabelled dataset
+├── Envs/                    # the three wireless testbeds
+│   ├── Resource Allocation/
+│   ├── Task Offloading/
+│   └── Channel Selection/
 └── models/                  # trained CVAE
 ```
 
@@ -81,6 +85,19 @@ directly for offline RL. Its `rewards` field already carries the compensable
 reward: the latent distance is scaled by `tau`, added to the original reward,
 and the result is normalized. The raw `distances` field is also kept, so a
 different `tau` can be applied without rerunning the pipeline.
+
+## Environments
+
+`Envs/` contains the three wireless scenarios used in the paper, each with its
+own README covering hardware, dependencies and how to run:
+
+- **Resource Allocation** — ORAN-Cloud simulation driven by the Alibaba cluster trace.
+- **Task Offloading** — client–server testbed on an NVIDIA Jetson edge device.
+- **Channel Selection** — GNU Radio flowgraphs over USRP.
+
+They are used to collect the offline datasets that feed the pipeline above, and
+to evaluate a trained policy. Both the edge and USRP scenarios depend on
+specific hardware; see the README in each folder.
 
 ## Offline RL training
 
