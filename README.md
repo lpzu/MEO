@@ -2,6 +2,10 @@
 
 ## Introduction
 
+<p align="center">
+  <img src="assets/framework.png" width="800">
+</p>
+
 MEO mines reliable expert signals from imperfect offline datasets collected in
 wireless networks, and converts them into a compensable reward that any offline
 RL algorithm can be trained on. It consists of three steps:
@@ -15,8 +19,6 @@ RL algorithm can be trained on. It consists of three steps:
 3. **Compensable reward.** The latent distance from each sample to the expert
    centroid is used to relabel the reward, so that samples closer to expert
    behavior receive more favorable training signals.
-
-![MEO framework](assets/framework.png)
 
 ## Structure
 
