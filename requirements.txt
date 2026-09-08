@@ -1,0 +1,10 @@
+d3rlpy==2.4.0
+h5py==3.9.0
+matplotlib==3.7.5
+numpy==1.24.3
+pandas==2.0.3
+scikit_learn==1.3.2
+seaborn==0.13.2
+torch==2.1.0
+tqdm==4.65.0
+faiss-gpu==1.7.2
