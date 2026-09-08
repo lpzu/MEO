@@ -3,7 +3,7 @@
 ## Introduction
 
 <p align="center">
-  <img src="assets/framework.png" width="800">
+  <img src="assets/framework.png" width="600">
 </p>
 
 MEO mines reliable expert signals from imperfect offline datasets collected in
