@@ -10,7 +10,7 @@ actions = file['actions'][:]
 rewards = file['rewards'][:]
 terminals = file['terminals'][:]
 
-n_to_select = {20000: 1}
+n_to_select = {20000: 2}
 
 for n in tqdm(n_to_select, desc='data split', ncols=100):
     labels = file[f'label_{n}'][:]
