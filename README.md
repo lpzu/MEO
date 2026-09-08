@@ -16,6 +16,8 @@ RL algorithm can be trained on. It consists of three steps:
    centroid is used to relabel the reward, so that samples closer to expert
    behavior receive more favorable training signals.
 
+![MEO framework](assets/framework.png)
+
 ## Structure
 
 ```
