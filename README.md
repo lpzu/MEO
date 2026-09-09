@@ -109,3 +109,17 @@ MEO is independent of the downstream algorithm and can be combined with any
 offline RL method. We use [d3rlpy](https://github.com/takuseno/d3rlpy) in the
 paper; load the relabelled dataset, apply the reward transformation above, and
 train as usual.
+
+## Citation
+
+```bibtex
+@misc{zu2026meo,
+      title={MEO: Mining Reliable Expert Signals for Offline Reinforcement Learning in Wireless Networks}, 
+      author={Lipeng Zu and Hansong Zhou and Yu Qian and Shayok Chakraborty and Yukun Yuan and Linke Guo and Xiaonan Zhang},
+      year={2026},
+      eprint={2512.19671},
+      archivePrefix={arXiv},
+      primaryClass={cs.NI},
+      url={https://arxiv.org/abs/2512.19671}, 
+}
+```
